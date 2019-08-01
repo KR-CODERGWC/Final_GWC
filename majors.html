@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>College Majors</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="icon" href="globe.png">
+<title>SAT and ACT Preparation</title>
+<style>
+#myButton{
+  display:none;
+  position:fixed;
+  bottom:30px;
+  right:11px;
+  border:none;
+  outline:none;
+  background-color:black;
+  color:white;
+  cursor:pointer;
+  padding:15px;
+  font-size:9px;
+}
+#myButton:hover{
+  background-color:#555;
+}
+
+ul {
+  display:inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: grey;
+}
+
+body{
+  text-align:center;
+}
+
+.column{
+  float:left;
+  padding:10px;
+  width: 400px;
+}
+
+.left, .right{
+  width:25%;
+}
+
+.middle{
+  width:40%;
+}
+
+.row:after{
+  content:"";
+  display:table;
+  clear:both;
+
+}
+h1, h3{
+  color:white;
+}
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  width: 100%;
+  padding: 0px;
+  height: 300px;
+  margin-left:200px;
+  margin-right:200px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.col-sm-4{
+float:left;
+}
+#p4{
+  border: solid;
+  padding:30px;
+  width:480px;
+}
+
+</style>
+</head>
+
+<body>
+<div style= "background-color: #73C6B6" class="jumbotron text-center">
+  <h1>A Guide to STEM Majors</h1>
+  <br>
+  <ul>
+    <li><a class="active" href="final.html">Home</a></li>
+    <li><a href='majors.html#science'>Science</a></li>
+    <li><a href='majors.html#sciencemath'>Science & Mathematics</a></li>
+    <li><a href='majors.html#medhealth'>Medical & Health</a></li>
+    <li><a href='majors.html#engtech'>Engineering & Technology</a></li>
+    </ul>
+</div>
+
+<button onclick="topFunction()" id='myButton' title='Go to top'>Go to Top</button>
+
+<script>
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction(){
+  if(document.body.scrollTop > 30 || document.documentElement.scrollTop > 30){
+    document.getElementById("myButton").style.display = "block";
+  }else{
+    document.getElementById("myButton").style.display="none";
+  }
+}
+
+function topFunction(){
+  document.body.scrollTop=0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+<div class="row">
+  <div class="column" style="background-color:white; position:absolute; right:100px;">
+  <h4 id='science'><i><u>Science</h4></i>
+    <br>
+  <p><a href='https://bigfuture.collegeboard.org/majors/agriculture-related-sciences-plant-sciences-agronomy-crop-science'target='_blank'>Agronomy and Crop Science</a></p>
+<p><a href='https://www.princetonreview.com/college-majors/23/animal-science'target=_blank>Animal Sciences</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/physical-sciences-astronomy'target='_blank'>Astronomy</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/physical-sciences-atmospheric-sciences-meteorology'target='_blank'>Atmospheric Sciences and Meteorology</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/physical-sciences-atmospheric-sciences-meteorology'target='_blank'>Biochemistry and Biophysics</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/biological-biomedical-sciences-biology-general'target='_blank'>Biology, General</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/biological-biomedical-sciences-biology-general'target="_blank">Cell/Cellular Biology</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/physical-sciences-chemistry-chemistry'target='_blank'>Chemistry</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/biological-biomedical-sciences-ecology-evolution-related-sciences-ecology'target='_blank'>Ecology</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/natural-resources-conservation-environmental-science'target='_blank'>Environmental Science</a></p>
+<p><a href='http://www.ift.org/knowledge-center/learn-about-food-science/what-is-food-science.aspx'target="_blank">Food Sciences and Technology</a></p>
+<p><a href='https://www.mymajors.com/college-majors/forestry/'target="_blank">Forestry</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/biological-biomedical-sciences-genetics'target="_blank">Genetics</a></p>
+<p><a href='https://www.collegefactual.com/majors/physical-sciences/geological-and-earth-sciences/'target="_blank">Geological and Earth Sciences</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/agriculture-related-sciences-plant-sciences-horticultural-science'target="_blank">Horticulture Science</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/biological-biomedical-sciences-ecology-evolution-related-sciences-marine-biology'target="_blank">Marine/Aquatic Biology</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/biological-biomedical-sciences-microbiology-immunology'target="_blank">Microbiology and Immunology</a></p>
+<p><a href='https://www.collegefactual.com/majors/natural-resources-conservation/natural-resources-conservation/'target='_blank'>Natural Resources Conservation, General</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/natural-resources-conservation-natural-resources-management-policy'trget="_blank">Natural Resources Management</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/physical-sciences-physical-sciences'target="_blank">Physical Sciences, General</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/physical-sciences-physics-physics'target="_blank">Physics</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/education-education-specific-subject-areas-science-teacher-education'target="_blank">Science Education</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/natural-resources-conservation-wildlife-fish-wildls-science-management'target="_blank">Wildlife and Wildlands Management</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/biological-biomedical-sciences-zoology'target="_blank">Zoology</a></p>
+
+
+<h4 id='sciencemath'><i>Computer Science & Mathematics</i></h4>
+<br>
+<p><a href='https://bigfuture.collegeboard.org/majors/business-actuarial-science'target='_blank'>Actuarial Science</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/math-statistics-applied-mathematics'target='_blank'>Applied Mathematics</a></p>
+<p><a href='https://www.collegefactual.com/majors/business-management-marketing-sales/management-science-quantitative-methods/'target='_blank'>Business/Management Quantitative Methods, General</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/computer-information-sciences-computer-information-sciences-general'target='_blank'>Computer and Information Sciences, General</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/computer-information-sciences-computer-networking-telecommunications'target='_blank'>Computer Network/Telecommunications</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/computer-information-sciences-computer-science'target='_blank'>Computer Science and Programming</a></p>
+<p><a href='https://www.mymajors.com/college-majors/computer-software-and-media-applications/'target='_blank'>Computer Software and Media Application</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/computer-information-sciences-network-system-administration'target='_blank'>Computer System Administration</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/computer-information-sciences-database-management'target='_blank'>Data Management Technology</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/computer-information-sciences-information-science'target='_blank'>Information Science</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/business-management-information-systems'target='_blank'>Management Information Systems</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/education-education-specific-subject-areas-mathematics-teacher-education'target='_blank'>Mathematics Education</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/math-statistics-mathematics'target='_blank'>Mathematics, General</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/math-statistics-statistics'target='_blank'>Statistics</a></p>
+<p><a href='https://bigfuture.collegeboard.org/careers/arts-visualand-performing-web-designers'target='_blank'>Webpage Design</a></p>
+<br>
+
+<h4 id='medhealth'><i>Medical & Health</i></h4>
+<br>
+<p><a href='https://bigfuture.collegeboard.org/majors/health-professions-related-clinical-sciences-allied-health-diagnosis-intervention-treatment-athletic-training'target='_blank'>Athletic Training</a></p>
+<p><a href='https://bigfuture.collegeboard.org/careers/health-diagnosis-treatment-chiropractors'target="_blank">Chiropractic (Pre-Chiropractic)</a></p>
+<p><a href='https://www.degreequery.com/what-major-do-you-need-to-be-a-dentist/'target='_blank'>Dentistry (Pre-Dentistry)</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/health-professions-related-clinical-sciences-allied-health-diagnosis-intervention-treatment-emergency-medical-technology'target='_blank'>Emergency Medical Technology</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/family-consumer-sciences-foods-nutrition-wellness-studies'target='_blank'>Food and Nutrition</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/health-professions-related-clinical-sciences-health-medical-administrative-services-health-information-technology'target='_blank'>Health/Medical Technology, General</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/health-professions-related-clinical-sciences-clinical-laboratory-science-clinical-laboratory-technology'target='_blank'>Medical Laboratory Technology</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/health-professions-related-clinical-sciences-allied-health-diagnosis-intervention-treatment-medical-radiologic-technology'target='_blank'>Medical Radiologic Technology</a></p>
+<p><a href='https://bigfuture.collegeboard.org/explore-careers/college-majors/health-and-medicine-majors-the-basics'target="_blank">Medicine (Pre-Medicine)</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/health-professions-related-clinical-sciences-allied-health-diagnosis-intervention-treatment-nuclear-medical-technology'target='_blank'>Nuclear Medicine Technology</a></p>
+<p><a href='https://americancareercollege.edu/programs/vocational-nursing.html'target="_blanK">Nursing, Practical/Vocational (LPN)</a></p>
+<p><a href='https://www.allnursingschools.com/registered-nursing/degrees/'target='_blank'>Nursing, Registered (BS/RN)</a></p>
+<p><a href='https://bigfuture.collegeboard.org/careers/health-diagnosis-treatment-optometrists'target='_blank'>Optometry (Pre-Optometry)</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/health-professions-related-clinical-sciences-osteopathic-medicine'target='_blank'>Osteopathic Medicine</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/health-professions-related-clinical-sciences-pharmacy'target='_blank'>Pharmacy (Pre-Pharmacy)</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/health-professions-related-clinical-sciences-rehabilitation-therapy-physical-therapy'target='_blank'>Physical Therapy (Pre-Physical Therapy)</a></p>
+<p><a href='https://www.bls.gov/ooh/healthcare/physician-assistants.htm'target='_blank'>Physician Assisting</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/health-professions-related-clinical-sciences-allied-health-diagnosis-intervention-treatment-respiratory-therapy'target='_blank'>Respiratory Therapy Technology</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/health-professions-related-clinical-sciences-allied-health-diagnosis-intervention-treatment-surgical-technology'target='_blank'>Surgical Technology</a></p>
+<p><a href='https://www.avma.org/public/YourVet/Pages/techs-and-assistants.aspx'target='_blank'>Veterinarian Assisting/Technology</a></p>
+<p><A href='https://www.worldwidelearn.com/online-education-guide/science/veterinary-science-major.htm'target='_blank'>Veterinary Medicine (Pre-Vet)</a></p>
+<br>
+
+
+<h4 id='engtech'><i>Engineering & Technology</i></h4>
+<br>
+<p><a href='https://bigfuture.collegeboard.org/majors/engineering-technologies-aerospace-engineering-technology'target='_blank'>Aeronautical/Aerospace Engineering Technology</a></p>
+<p><a href='https://www.topuniversities.com/courses/engineering-aeronautical/guide'target='_blank'>Aerospace/Aeronautical Engineering</a></p>
+<p><a href='https://www.princetonreview.com/college-majors/417/agricultural-biological-engineering-bioengineering'target='_blank'>Agricultural/Bioengineering</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/engineering-technologies-drafting-design-drafting-design-technology'target='_blank'>Architectural Drafting/CAD Technology</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/engineering-architectural-engineering'target='_blank'>Architectural Engineering</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/engineering-technologies-architectural-engineering-technology'target='_blank'>Architectural Engineering Technology</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/architecture-planning-architecture'target='_blank'>Architecture, General</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/engineering-technologies-automotive-engineering-technology'target="_blank">Automotive Engineering Technology</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/engineering-biomedical-engineering'target="_blank">Biomedical Engineering</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/engineering-chemical-engineering'target="_blank">Chemical Engineering</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/engineering-civil-engineering-civil-engineering'target="_blank">Civil Engineering</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/engineering-technologies-civil-engineering-technology'target="_blank">Civil Engineering Technology</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/computer-engineering-general'target="_blank">Computer Engineering</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/engineering-technologies-computer-engineering-technology'target="_blank">Computer Engineering Technology</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/engineering-construction-engineering'target="_blank">Construction Engineering/Management</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/engineering-technologies-construction-technology'target="_blank">Construction/Building Technology</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/engineering-technologies-drafting-design-drafting-design-technology'target='_blank'>Drafting/CAD Technology, General</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/engineering-electrical-electronics-communications-engineering-electrical-engineering'target="_blank">Electrical, Electronic, and Communication Engineering</a></p>
+<p><a href='https://www.nhti.edu/academics/programs-study/engineering-technology-programs/electronic-engineering-technology/what-can'target='_blank'>Electrical/Electronics Engineering Technology</a></p>
+<p><a href='https://www.collegexpress.com/interests/science-and-engineering/articles/studying-sciences/chemical-engineering/'target='_blank'>Engineering (Pre-Engineering), General</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/engineering-technologies-engineering-technology'target='_blank'>Engineering Technology, General</a></p>
+<p><a href='http://www.citytech.cuny.edu/environmental/environmental-technology-aas.aspx'target='_blank'>Environmental Control Technologies</a></p>
+<p><a href='https://www.princetonreview.com/college-majors/418/environmental-environmental-health-engineering'target='_blank'>Environmental Health Engineering</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/engineering-industrial-engineering'target='_blank'>Industrial Engineering</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/engineering-technologies-industrial-production-technologies-industrial-technology'target="_blank">Industrial Production Technologies</a></p>
+<p><a href='https://www.campusexplorer.com/colleges/major/A75192D3/Engineering-Technology/DC613E1F/Mechanical-Drafting-and-Mechanical-Drafting-CAD-CADD/'target='_blank'>Mechanical Drafting/CAD Technology</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/engineering-mechanical-engineering'target='_blank'>Mechanical Engineering</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/engineering-technologies-mechanical-engineering-technology'target="_blank">Mechanical Engineering Technology</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/military-military-technologies'target='_blank'>Military Technologies</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/engineering-nuclear-engineering'target='_blank'>Nuclear Engineering</a></p>
+<p><a href='https://www.mymajors.com/college-majors/quality-control-and-safety-technologies-technicians/'target="_blank">Quality Control and Safety Technologies</a></p>
+<p><a href='https://bigfuture.collegeboard.org/majors/engineering-technologies-surveying'target='_blank'>Surveying Technology</a></p>
+</u>
+
+  </div>
+  <div style='position:absolute; right:90px;'>
+  <h4><u><em>Career, Personality, & Major Quizzes</u></em></h4>
+  <br>
+  <iframe width="480" height="315" src="https://www.youtube.com/embed/1Hxc7ZM3G8Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+  <br>
+  <br>
+  <p><iframe width="480" height="315" src="https://www.youtube.com/embed/I998mbFOwJA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+  <br>
+  <br>
+  <p id='p4'>
+  <a href='https://www.princetonreview.com/quiz/career-quiz'target="_blank">Princeton Review: Career Quiz</a>
+  <br>
+  <br>
+  <a href='https://www.truity.com/test/career-personality-profiler-test' target="_blank">Career Personality Profiler</a>
+  <br>
+  <br>
+  <a href='https://www.opencolleges.edu.au/careers/career-quiz'target='_blank'>OpenColleges: Career Quiz</a>
+  <br>
+  <br>
+  <a href='https://psychcentral.com/quizzes/personality-quiz/'target='_blank'>Dr. Phil's Personality Test</a>
+  <br>
+  <br>
+  <a href='https://www.16personalities.com/free-personality-test'target='_blank'>16 Personalities Test</a>
+  <br>
+  <br>
+  <a href='https://www.luc.edu/undergrad/academiclife/whatsmymajorquiz/'target='_blank'>Loyola University Chicago: Major Quiz</a>
+  <br>
+  <br>
+</p><br><br>
+  <p><iframe width="480" height="315" src="https://www.youtube.com/embed/lcJvPQTTNPs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+  <br>
+  <br>
+  <p><iframe width="480" height="315" src="https://www.youtube.com/embed/u-tz6GuneJI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+  <br>
+  <br>
+  <p id='p4'>
+  <a href='https://www.personalityperfect.com/test/free-personality-test/' target='_blank'>Personality Test</a>
+  <br>
+  <br>
+  <a href='https://www.123test.com/career-test/' target='_blank'>Career Aptitude Test</a>
+  <br>
+  <br>
+  <a href='http://www.oprah.com/inspiration/who-are-you-meant-to-be-self-assessment-quiz_1' target='_blank'>Who am I meant to be?</a>
+  <br>
+  <br>
+  <a href='http://you.visualdna.com/quiz/personality?c=uk&utm_source=personality-picture-VDNA#/quiz' target='_blank'>VisualDNA: Personality Test</a>
+  <br>
+  <br>
+  <a href= 'http://you.visualdna.com/quiz/successquiz?c=uk#/quiz' target='_blank'>VisualDNA: Success Quiz</a>
+  <br>
+  <br>
+  <a href='https://www.careerfitter.com/free_test/careerbuilder/test' target='_blank'>Career Test: Work Personality Analysis</a>
+  <br>
+  <br>
+  </p><br><br>
+  <p><iframe width="480" height="315" src="https://www.youtube.com/embed/S6d_yEvjkjI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+  <br>
+  <br>
+  <p><iframe width="480" height="315" src="https://www.youtube.com/embed/vgs_N55EGog" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+  <br>
+  <br>
+  <p id='p4'>
+  <a href='http://www.seemypersonality.com/Career-Test#q1' target='_blank'>Career Test</a>
+  <br>
+  <br>
+  <a href='https://www.careeronestop.org/Toolkit/Skills/skills-matcher-questions.aspx' target='_blank'>Skills Matcher</a>
+  <br>
+  <br>
+  <a href='https://www.yourfreecareertest.com/' target='_blank'>Career Test for Students</a>
+  <br>
+  <br>
+  <a href='https://profile.keirsey.com/#/b2c/assessment/start' target='_blank'>Keirsey Temperament Sorter</a>
+  <br>
+  <br>
+  <a href='https://www.careerexplorer.com/career-test/' target='_blank'>Sokanu: Career Explorer</a>
+  <br>
+  <br>
+  <a href='https://www.jobquiz.com/' target='_blank'>Find the Perfect Career</a>
+  </p><br><br>
+  <p><iframe width="480" height="315" src="https://www.youtube.com/embed/BA4xlSAPhHw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+  </p>
+  </div>
+
+</div>
+</body>
+</html>

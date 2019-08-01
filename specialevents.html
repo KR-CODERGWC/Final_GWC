@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>9thgrade</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="icon" href="globe.png">
+<title>9thgrade</title>
+<style>
+#header{
+  margin-left:200px;
+  margin-right:200px;
+
+}
+
+ul {
+  display:inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: gray;
+}
+
+body{
+  text-align:center;
+}
+
+.column{
+  float:left;
+  padding:10px;
+  width: 400px;
+}
+
+.left, .right{
+  width:25%;
+}
+
+.middle{
+  width:40%;
+}
+
+.row:after{
+  content:"";
+  display:table;
+  clear:both;
+
+}
+h1,h3{
+  color:white;
+}
+#spa{
+  margin-left:50px;
+}
+#color{
+  color:gray;
+}
+</style>
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev{
+  cursor: pointer;
+  position: absolute;
+  left:0px;
+  right:40px;
+  top: 40%;
+  width: 100px;
+  padding: 10px;
+  margin-top: 0px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 0px;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+  cursor: pointer;
+  position: absolute;
+
+  right:40px;
+  top: 40%;
+  width: 100px;
+  padding: 10px;
+  margin-top: 0px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 0px;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 0px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color:#73c6b6;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 20px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color:#73c6b6;
+  padding:0px px;
+  color: white;
+  margin-right:165px;
+  margin-left:165px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: right;
+  width: 13.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+</style>
+<body>
+  <div style= "background-color:#73c6b6" class="jumbotron text-center">
+    <h1>12th Grade</h1>
+    <h3><em>Special Events</em></h3>
+    <br>
+      <ul>
+        <li><a href="final.html">Home</a></li>
+        <li><a href="apply.html">Applying to College</a></li>
+        <li><a href="college.html">Colleges in USA</a></li>
+        <li><a href="specialevents.html">Special Events</a></li>
+      </ul>
+  </div>
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="prom1.jpg" style="width:70%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="prom2.jpg" style="width:70%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="gradbash2.jpg" style="width:70%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="gradbash1.jpg" style="width:70%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="graduation.jpg" style="width:70%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="theend.png" style="width:70%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="quote.jpg" style="width:70%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="prom1.jpg" style="width:90%" onclick="currentSlide(1)" alt="Getting Ready for Prom">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="prom2.jpg" style="width:81%" onclick="currentSlide(2)" alt="Prom in Action!">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="gradbash2.jpg" style="width:80%" onclick="currentSlide(3)" alt="Going to Gradbash">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="gradbash1.jpg" style="width:80%" onclick="currentSlide(4)" alt="Gradbash in Action!">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="graduation.jpg" style="width:90%" onclick="currentSlide(5)" alt="Getting Ready for Graduation">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="theend.png" style="width:90%" onclick="currentSlide(6)" alt="Finally Graduated!">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="quote.jpg" style="width:90%" onclick="currentSlide(6)" alt="The End of the Journey">
+    </div>
+  </div>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+</body>
+</html>
